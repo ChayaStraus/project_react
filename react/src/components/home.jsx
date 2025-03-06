@@ -38,6 +38,7 @@ export const Home = () => {
     return <>
         <div className="container text-center my-5" style={{ fontFamily: 'Arial, sans-serif', direction: 'rtl' }}>
             <h1 className="mb-4">דף הבית - חנות משחקים</h1>
+            <h2>hellow git</h2>
 
             <div className="input-group mb-4 w-50 mx-auto">
                 <input type="text" className="form-control rounded-start" placeholder="הכנס קוד קטגוריה"
