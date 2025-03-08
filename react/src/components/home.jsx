@@ -45,10 +45,10 @@ export const Home = () => {
                 />
                 <button className="btn btn-secondary rounded" onClick={() => { filter(); }}
                     style={{ backgroundColor: '#D3D3D3', borderColor: '#D3D3D3' }}
-                >חיפוש
-                    {/* <img src="https://img.icons8.com/ios/452/search.png" alt="search"
+                >
+                    <img src="https://img.icons8.com/ios/452/search.png" alt="search"
                         style={{ width: '20px', height: '20px' }}
-                    /> */}
+                    />
                 </button>
             </div>
 

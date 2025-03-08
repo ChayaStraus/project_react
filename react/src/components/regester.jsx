@@ -66,7 +66,8 @@ export const Regester = () => {
     const check = async () => {
         try { 
             const response = await getbynameandpass(newcost.name, newcost.password);
-            if (response.data.name !== null && response.data.password !== null) {
+          //  if (response.data.name !== null && response.data.password !== null) {
+          if(response.data){
                 alert("אתה רשום כבר במערכת,התחבר")
                 nevigate('/mylogin')
             } else {
